@@ -1,4 +1,4 @@
-# Configuration for Alacritty, the GPU enhanced terminal emulator
+# Configu8ration for Alacritty, the GPU enhanced terminal emulator
 
 
 # Any items in the `env` entry below will be added as
@@ -26,8 +26,8 @@ window:
   # Units are physical pixels; this is not DPI aware.
   # (change requires restart)
   padding:
-    x: 2
-    y: 2
+    x: 6
+    y: 6
 
   # Window decorations
   # Setting this to false will result in window without borders and title bar.
@@ -65,14 +65,14 @@ font:
       # family: Iosevka Nerd Font
       # family: Hack # should be "Menlo" or something on macOS.
     # Style can be specified to pick a specific face.
-      style: Medium
+      style: Bold
 
   # The bold font face
   bold:
       family: Iosevka Term
         # family: Hack # should be "Menlo" or something on macOS.
         # Style can be specified to pick a specific face.
-        # style: Bold
+        # style: Heavy
 
   # The italic font face
   italic:
@@ -81,7 +81,7 @@ font:
       # style: Italic
 
   # Point size of the font
-  size: 9
+  size: 8
 
   # Offset is the extra space around each character. offset.y can be thought of
   # as modifying the linespacing, and offset.x as modifying the letter spacing.
