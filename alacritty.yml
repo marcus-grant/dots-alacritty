@@ -109,48 +109,48 @@ render_timer: false
 # TODO DEPRACATED FIND ALTERNATIVE
 #custom_cursor_colors: false
 
-# Base16 Paraiso 256 - alacritty color config
-# Jan T. Sott
+# Base16 Gruvbox dark, medium 256 - alacritty color config
+# Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
 colors:
   # Default colors
   primary:
-    background: '0x2f1e2e'
-    foreground: '0xa39e9b'
+    background: '0x282828'
+    foreground: '0xd5c4a1'
 
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text: '0x2f1e2e'
-    cursor: '0xa39e9b'
+    text: '0x282828'
+    cursor: '0xd5c4a1'
 
   # Normal colors
   normal:
-    black:   '0x2f1e2e'
-    red:     '0xef6155'
-    green:   '0x48b685'
-    yellow:  '0xfec418'
-    blue:    '0x06b6ef'
-    magenta: '0x815ba4'
-    cyan:    '0x5bc4bf'
-    white:   '0xa39e9b'
+    black:   '0x282828'
+    red:     '0xfb4934'
+    green:   '0xb8bb26'
+    yellow:  '0xfabd2f'
+    blue:    '0x83a598'
+    magenta: '0xd3869b'
+    cyan:    '0x8ec07c'
+    white:   '0xd5c4a1'
 
   # Bright colors
   bright:
-    black:   '0x776e71'
-    red:     '0xef6155'
-    green:   '0x48b685'
-    yellow:  '0xfec418'
-    blue:    '0x06b6ef'
-    magenta: '0x815ba4'
-    cyan:    '0x5bc4bf'
-    white:   '0xe7e9db'
+    black:   '0x665c54'
+    red:     '0xfb4934'
+    green:   '0xb8bb26'
+    yellow:  '0xfabd2f'
+    blue:    '0x83a598'
+    magenta: '0xd3869b'
+    cyan:    '0x8ec07c'
+    white:   '0xfbf1c7'
 
   indexed_colors:
-    - { index: 16, color: '0xf99b15' }
-    - { index: 17, color: '0xe96ba8' }
-    - { index: 18, color: '0x41323f' }
-    - { index: 19, color: '0x4f424c' }
-    - { index: 20, color: '0x8d8687' }
-    - { index: 21, color: '0xb9b6b0' }
+    - { index: 16, color: '0xfe8019' }
+    - { index: 17, color: '0xd65d0e' }
+    - { index: 18, color: '0x3c3836' }
+    - { index: 19, color: '0x504945' }
+    - { index: 20, color: '0xbdae93' }
+    - { index: 21, color: '0xebdbb2' }
 
   # Dim colors (Optional)
   # dim:
