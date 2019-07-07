@@ -109,10 +109,10 @@ render_timer: false
 # TODO DEPRACATED FIND ALTERNATIVE
 #custom_cursor_colors: false
 
+# color_start
+# base16-belafonte-day.yml
 # Base16 Belafone Light - alacritty color config
 # Pattern Buffer (modified by marcus-grant)
-# Comment Toggle Ends Here
-# ##########################
 colors:
   # Default colors
   primary:
@@ -125,7 +125,7 @@ colors:
     cursor: '0x45373c'
 
   # Normal colors
-  bright:
+  normal:
     black:   '0x20111b'
     red:     '0xbe100e'
     green:   '0x858162'
@@ -136,7 +136,7 @@ colors:
     white:   '0x968c83'
 
   # Bright colors
-  normal:
+  bright:
     black:   '0x5e5252'
     red:     '0xbe100e'
     green:   '0x858162'
@@ -145,6 +145,45 @@ colors:
     magenta: '0x97522c'
     cyan:    '0x989a9c'
     white:   '0xd5ccba'
+
+# color_end
+
+# Base16 Belafone Light - alacritty color config
+# Pattern Buffer (modified by marcus-grant)
+# Comment Toggle Ends Here
+# ##########################
+# colors:
+#   # Default colors
+#   primary:
+#     background: '0xd5ccba'
+#     foreground: '0x45373c'
+#
+#   # Colors the cursor will use if `custom_cursor_colors` is true
+#   cursor:
+#     text: '0x45373c'
+#     cursor: '0x45373c'
+#
+#   # Normal colors
+#   bright:
+#     black:   '0x20111b'
+#     red:     '0xbe100e'
+#     green:   '0x858162'
+#     yellow:  '0xceaa549'
+#     blue:    '0x426a79'
+#     magenta: '0x97522c'
+#     cyan:    '0x989a9c'
+#     white:   '0x968c83'
+#
+#   # Bright colors
+#   normal:
+#     black:   '0x5e5252'
+#     red:     '0xbe100e'
+#     green:   '0x858162'
+#     yellow:  '0xeaa549'
+#     blue:    '0x426a79'
+#     magenta: '0x97522c'
+#     cyan:    '0x989a9c'
+#     white:   '0xd5ccba'
 # ##########################
 # Comment Toggle Ends Here
 
