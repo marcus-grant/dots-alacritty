@@ -81,7 +81,7 @@ font:
       # style: Italic
 
   # Point size of the font
-  size: 7
+  size: 8
 
   # Offset is the extra space around each character. offset.y can be thought of
   # as modifying the linespacing, and offset.x as modifying the letter spacing.
@@ -109,48 +109,89 @@ render_timer: false
 # TODO DEPRACATED FIND ALTERNATIVE
 #custom_cursor_colors: false
 
-# Base16 Gruvbox dark, medium 256 - alacritty color config
-# Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+# Base16 Belafone Light - alacritty color config
+# Pattern Buffer (modified by marcus-grant)
+# Comment Toggle Ends Here
+# ##########################
 colors:
   # Default colors
   primary:
-    background: '0x282828'
-    foreground: '0xd5c4a1'
+    background: '0xd5ccba'
+    foreground: '0x45373c'
 
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text: '0x282828'
-    cursor: '0xd5c4a1'
+    text: '0x45373c'
+    cursor: '0x45373c'
 
   # Normal colors
-  normal:
-    black:   '0x282828'
-    red:     '0xfb4934'
-    green:   '0xb8bb26'
-    yellow:  '0xfabd2f'
-    blue:    '0x83a598'
-    magenta: '0xd3869b'
-    cyan:    '0x8ec07c'
-    white:   '0xd5c4a1'
+  bright:
+    black:   '0x20111b'
+    red:     '0xbe100e'
+    green:   '0x858162'
+    yellow:  '0xceaa549'
+    blue:    '0x426a79'
+    magenta: '0x97522c'
+    cyan:    '0x989a9c'
+    white:   '0x968c83'
 
   # Bright colors
-  bright:
-    black:   '0x665c54'
-    red:     '0xfb4934'
-    green:   '0xb8bb26'
-    yellow:  '0xfabd2f'
-    blue:    '0x83a598'
-    magenta: '0xd3869b'
-    cyan:    '0x8ec07c'
-    white:   '0xfbf1c7'
+  normal:
+    black:   '0x5e5252'
+    red:     '0xbe100e'
+    green:   '0x858162'
+    yellow:  '0xeaa549'
+    blue:    '0x426a79'
+    magenta: '0x97522c'
+    cyan:    '0x989a9c'
+    white:   '0xd5ccba'
+# ##########################
+# Comment Toggle Ends Here
 
-  indexed_colors:
-    - { index: 16, color: '0xfe8019' }
-    - { index: 17, color: '0xd65d0e' }
-    - { index: 18, color: '0x3c3836' }
-    - { index: 19, color: '0x504945' }
-    - { index: 20, color: '0xbdae93' }
-    - { index: 21, color: '0xebdbb2' }
+# Base16 Gruvbox dark, medium 256 - alacritty color config
+# Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+# Comment Toggle Starts Here
+# ##########################
+# colors:
+#   # Default colors
+#   primary:
+#     background: '0x282828'
+#     foreground: '0xd5c4a1'
+#
+#   # Colors the cursor will use if `custom_cursor_colors` is true
+#   cursor:
+#     text: '0x282828'
+#     cursor: '0xd5c4a1'
+#
+#   # Normal colors
+#   normal:
+#     black:   '0x282828'
+#     red:     '0xfb4934'
+#     green:   '0xb8bb26'
+#     yellow:  '0xfabd2f'
+#     blue:    '0x83a598'
+#     magenta: '0xd3869b'
+#     cyan:    '0x8ec07c'
+#     white:   '0xd5c4a1'
+#
+#   # Bright colors
+#   bright:
+#     black:   '0x665c54'
+#     red:     '0xfb4934'
+#     green:   '0xb8bb26'
+#     yellow:  '0xfabd2f'
+#     blue:    '0x83a598'
+#     magenta: '0xd3869b'
+#     cyan:    '0x8ec07c'
+#     white:   '0xfbf1c7'
+#
+#   indexed_colors:
+#     - { index: 16, color: '0xfe8019' }
+#     - { index: 17, color: '0xd65d0e' }
+#     - { index: 18, color: '0x3c3836' }
+#     - { index: 19, color: '0x504945' }
+#     - { index: 20, color: '0xbdae93' }
+#     - { index: 21, color: '0xebdbb2' }
 
   # Dim colors (Optional)
   # dim:
@@ -162,6 +203,8 @@ colors:
   #   magenta: '0x6d9cbe'
   #   cyan:    '0xb6b3eb'
   #   white:   '0xf9f7f3'
+# ########################
+# Comment Toggle Ends Here
 
 # Visual Bell
 #
