@@ -22,13 +22,15 @@ if [ ! -z $1 ]; then
 fi
 
 # Day mode is lightModeEndHr > current hour >= lightModeStartHr
-if { [ "$lightModeEndHr" -gt "$currentHour" ] && [ "$currentHour" -ge "$lightModeStartHr" ]; }; then
-    # Light Mode
-    $scriptPrefix $lightModeScheme
-    # echo "light mode"
-else
-    # Dark Mode
-    $scriptPrefix $darkModeScheme
-    # echo "dark mode"
-fi
+# TODO: Needs to work without constantly changing the alacritty.yml config
+# Could potentially generate alacritty.yml a common file, light & dark color files
+# if { [ "$lightModeEndHr" -gt "$currentHour" ] && [ "$currentHour" -ge "$lightModeStartHr" ]; }; then
+#     # Light Mode
+#     $scriptPrefix $lightModeScheme
+#     # echo "light mode"
+# else
+#     # Dark Mode
+#     $scriptPrefix $darkModeScheme
+#     # echo "dark mode"
+# fi
 
