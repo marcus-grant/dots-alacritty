@@ -8,7 +8,10 @@ lightModeEndHr="18"
 
 # Color Mode Schemes
 darkModeScheme="base16-gruvbox-dark-medium-256.yml"
-lightModeScheme="base16-belafonte-day.yml"
+# lightModeScheme="base16-belafonte-day.yml"
+lightModeScheme="base16-gruvbox-light-medium.yml"
+lightModeScheme="base16-gruvbox-light-hard-mod.yml"
+
 
 # Alacritty Config Root
 alacConfRoot="$HOME/.dots/alacritty"
